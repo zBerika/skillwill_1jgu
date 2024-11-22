@@ -1,0 +1,10 @@
+Teimuraz - 14, Ford Mustang, red, hatchback, Tbilisi
+Sandro - 11, Ford Mustang, black, sedan, Tbilisi
+David - 7, Honda Accord, red, SUV, Tbilisi
+Irakli - 5, Chevrolet Malibu, red, wagon, Tbilisi
+Marina - 15, Honda Accord, blue, hatchback, Tbilisi
+Anna - 8, Ford Mustang, gray, sedan, Tbilisi
+Irakli - 5, Chevrolet Malibu, white, coupe, Tbilisi
+Levan - 3, Toyota Camry, gray, SUV, Tbilisi
+Nino - 2, Nissan Altima, red, hatchback, Tbilisi
+Zurab - 9, Honda Accord, blue, sedan, Tbilisi

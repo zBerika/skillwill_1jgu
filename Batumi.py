@@ -1,0 +1,10 @@
+Vano - 13, Nissan Altima, gray, hatchback, Batumi
+Zurab - 9, Toyota Camry, gray, hatchback, Batumi
+Keti - 10, Toyota Camry, black, sedan, Batumi
+Anna - 8, Chevrolet Malibu, white, wagon, Batumi
+Levan - 3, Toyota Camry, white, SUV, Batumi
+Eka - 12, Nissan Altima, black, coupe, Batumi
+Vano - 13, Nissan Altima, black, wagon, Batumi
+Tamara - 4, Nissan Altima, white, wagon, Batumi
+Keti - 10, Honda Accord, white, hatchback, Batumi
+Marina - 15, Chevrolet Malibu, gray, wagon, Batumi

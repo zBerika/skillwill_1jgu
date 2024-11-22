@@ -1,0 +1,10 @@
+Eka - 12, Nissan Altima, black, coupe, Batumi
+Anna - 8, Ford Mustang, gray, sedan, Tbilisi
+Irakli - 5, Chevrolet Malibu, white, coupe, Tbilisi
+Vano - 13, Nissan Altima, black, wagon, Batumi
+Levan - 3, Toyota Camry, gray, SUV, Tbilisi
+Nino - 2, Nissan Altima, red, hatchback, Tbilisi
+Tamara - 4, Nissan Altima, white, wagon, Batumi
+Keti - 10, Honda Accord, white, hatchback, Batumi
+Marina - 15, Chevrolet Malibu, gray, wagon, Batumi
+Zurab - 9, Honda Accord, blue, sedan, Tbilisi
