@@ -23,7 +23,7 @@ class Car():
         self.engine=engine
 
     def display_info(self):
-        return f"{self.year} {self.color} {self.model}, Qawxana: {self.qarxana.display_info()}, Dzravi: {self.engine.display_info()}"
+        return f"{self.year} {self.color} {self.model}, Qawxana: {self.qarxana}, Dzravi: {self.engine}"
 
 class Ford(Car):
     def __init__(self, qarxana, model, color, year,engine):
