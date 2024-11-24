@@ -77,9 +77,9 @@ def create_cars_from_orders(orders):
             print(f"Неверный формат заказа: {order}")
             continue
 
-        customer_info, order_number, model_info, color, car_type, engine_type, engine_volume, engine_hp = parts
+        customer_name, customer_id, model_info, color, car_type, engine_type, engine_volume, engine_hp = parts
 
-        # Преобразуем объем и лошадиные силы в float
+
         engine_volume = float(engine_volume)
         engine_hp = float(engine_hp)
 
@@ -89,22 +89,21 @@ def create_cars_from_orders(orders):
 
         qarxana = factories.get(brand, None)
         if not qarxana:
-            print(f"Неизвестная марка: {brand}")
+            print(f"Ucnobi brendi: {brand}")
             continue
 
-        # Создание объекта автомобиля в зависимости от марки
         if "Ford" in model_info:
-            car = Ford(qarxana, model_info, color, 2023, engine, customer_info, car_type)
+            car = Ford(qarxana, model_info, color, 2024, engine, f"{customer_name}, {customer_id}",  car_type)
         elif "Honda" in model_info:
-            car = Honda(qarxana, model_info, color, 2023, engine, customer_info, car_type)
+            car = Honda(qarxana, model_info, color, 2024, engine, f"{customer_name}, {customer_id}", car_type)
         elif "Toyota" in model_info:
-            car = Toyota(qarxana, model_info, color, 2023, engine, customer_info, car_type)
+            car = Toyota(qarxana, model_info, color, 2024, engine, f"{customer_name}, {customer_id}", car_type)
         elif "Chevrolet" in model_info:
-            car = Chevrolet(qarxana, model_info, color, 2023, engine, customer_info, car_type)
+            car = Chevrolet(qarxana, model_info, color, 2024, engine, f"{customer_name}, {customer_id}", car_type)
         elif "Nissan" in model_info:
-            car = Nissan(qarxana, model_info, color, 2023, engine, customer_info, car_type)
+            car = Nissan(qarxana, model_info, color, 2024, engine, f"{customer_name}, {customer_id}", car_type)
         else:
-            print(f"Неизвестная марка: {model_info}")
+            print(f"Ucnobi brendi: {model_info}")
             continue
 
         car.vin = vin_generator.generate_vin()
@@ -114,8 +113,9 @@ def create_cars_from_orders(orders):
 
 
 def print_purchase_info(car):
-    print(f"VIN: {car.vin}, Клиент: {car.customer_info}, Модель: {car.model}, Цвет: {car.color}, "
-          f"Тип кузова: {car.car_type}, Объем двигателя: {car.engine.volume}L, Лошадиные силы: {car.engine.h_p}HP")
+    customer_name, customer_id = car.customer_info.split(', ')
+    print(f"VIN: {car.vin},Clienti: {customer_name} ID: {customer_id}, Modeli: {car.model}, Peri: {car.color}, "
+          f": {car.car_type}, {car.engine.volume}L,  {car.engine.h_p}HP")
 
 if __name__ == "__main__":
     try:
@@ -125,6 +125,6 @@ if __name__ == "__main__":
         for car in created_cars:
             print_purchase_info(car)
     except FileNotFoundError:
-        print("Файл 'sia.txt' не найден. Убедитесь, что он находится в той же директории, что и скрипт.")
+        print("'sia.txt'")
     except Exception as e:
         print(f"Произошла ошибка: {e}")
