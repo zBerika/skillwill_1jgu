@@ -1,0 +1,10 @@
+Irakli, 5, Honda Accord, blue, sedan, Diesel, 2.5, 125
+Eka, 12, Honda Accord, red, sedan, Gas, 2.0, 150
+Levan, 3, Nissan Altima, black, sedan, Diesel, 2.5, 200
+Tamara, 4, Toyota Camry, red, hatchback, Gas, 2.5, 175
+David, 7, Toyota Camry, red, coupe, Gas, 2.0, 150
+Zurab, 9, Toyota Camry, white, hatchback, Diesel, 3.0, 125
+Vano, 13, Nissan Altima, black, coupe, Gas, 3.0, 125
+Sandro, 11, Toyota Camry, blue, sedan, Diesel, 3.0, 125
+Marina, 15, Nissan Altima, red, SUV, Diesel, 2.5, 150
+Giorgi, 1, Nissan Altima, gray, wagon, Diesel, 2.0, 175
